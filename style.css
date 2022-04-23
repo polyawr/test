@@ -1,53 +1,60 @@
-h1.blue {
-    color: blue;
-    font-size: xx-large;
-    font-family: Broadway,Candara,monospace;
-    font-style: normal;
-    font-weight: 700;
-    margin-left: 150px;
+/*Тут пишем наш css-код*/
+body.shrift {
+    font-family: 'Roboto', sans-serif;
 }
-p {
+h1.zagol1 {
+    margin-bottom: -2px;
+}
+a.ssilka {
+    color: darkgrey;
+    text-decoration: none;
+}
+h3.zagol3 {
     color: cornflowerblue;
-    font-size: 20px;
-    font-family: Arial,Calibri,fantasy;
-    font-style: italic;
-    font-weight: 300;
-    text-indent: 50px;
+    margin-bottom: -2px;
 }
-h2.dodgerblue {
-    color: dodgerblue;
-    font-size: 30px;
-    font-family: Broadway,Candara,monospace;
-    font-style: oblique;
-    font-weight: bold;
-    margin-left: 125px;
+p.textbez {
+    margin-bottom: -15px;
 }
-h3.darkturquoise {
-    color: darkturquoise;
-    font-size: 25px;
-    font-family: Arial,Calibri,fantasy;
-    font-style: inherit;
-    font-weight: inherit;
-    margin-left: 100px;
-    word-spacing: 15px;
+p.texts {
+    text-decoration: underline;
 }
-table.ots {
-    float: none;
-    margin-left: 100px;
-
+h4.zagol4 {
+    color: cornflowerblue;
+    font-size: x-large;
+    margin-bottom: 10px;
 }
-tr.big {
-    color: black;
-    font-size: 20px;
-    font-family: Arial,Calibri,fantasy;
-    font-style: normal;
-    font-weight: 300;
+table.tabl {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    display: table;
 }
-tr.norm {
-    color: darkslategray;
-    font-size: 15px;
-    font-family: Arial,Calibri,fantasy;
-    font-style: italic;
-    font-weight: 200;
+th.tablzag {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+td.yach {
+    border: 1px solid lightgray;
+    color: red;
+    text-transform: uppercase;
+    border-collapse: collapse;
     text-align: center;
 }
+td.tablyach {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    padding-left: 5px;
+}
+td.tablyach2 {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+}
+.izo {
+    padding: 10px;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    border-radius: 7px;
+}
+
